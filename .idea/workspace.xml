@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5def03d5-e147-451e-b797-53b30f58b6fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/roguelike-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/roguelike-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IDRoguelike.iws" />
@@ -406,7 +405,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439733094537</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added Test class 2">
+      <created>1439733181370</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1439733181370</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -451,7 +456,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Test class" />
+    <MESSAGE value="added Test class 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Test class 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
