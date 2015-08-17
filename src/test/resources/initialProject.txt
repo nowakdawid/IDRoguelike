@@ -1,0 +1,38 @@
+Player
+------
+private int currentPositionX;
+private int currentPositionY;
+ustawic x,y na srodku mapy (17,17)
+------
+getters
+setters
+
+
+
+GameEngine
+----------
+public void getPlayerInput()
+public void visualiseWorld()
+
+
+
+
+
+World
+-----
+Map[] mapy = new Map(10);
+
+public void placePlayerOnMap() - do Map.playersOnMap dodaæ utworzonego playera
+public void displayActiveMap()
+
+
+Map
+---
+private int sizeX=35;
+private int sizeY=35;
+private String terrain;
+ArrayList<Player> playersOnMap = new ArrayList;
+
+
+
+
