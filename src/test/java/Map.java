@@ -4,8 +4,8 @@ import java.util.ArrayList;
  * Created by izasemczuk on 2015-08-17.
  */
 public class Map {
-    private int sizeX=35;
-    private int sizeY=35;
+    private int sizeX = 35;
+    private int sizeY = 35;
     private String terrain;
     private ArrayList<Player> playersOnMap = new ArrayList<Player>();
 
