@@ -1,6 +1,4 @@
-/**
- * Created by izasemczuk on 2015-08-17.
- */
+
 public class Player {
     private int currentPositionX = 17;
     private int currentPositionY = 17;
