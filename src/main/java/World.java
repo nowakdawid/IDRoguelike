@@ -1,7 +1,11 @@
 
 public class World {
 
-    Map[] mapy = new Map[10];
+    private int numberOfMaps = 10;
+    private int activeMap = 0;
+
+    Map[] mapy = new Map[numberOfMaps];
+
 
     public void placePlayerOnMap(Player player, int newX, int newY) {
         player.setCurrentPositionX(newX);
@@ -14,10 +18,8 @@ public class World {
         int playerX = player.getCurrentPositionX();
         int playerY = player.getCurrentPositionY();
 
-        mapy[0] = new Map();
-        Map map = mapy[0];
-        int sizeX = mapy[0].getSizeX();
-        int sizeY = mapy[0].getSizeY();
+        int sizeX = mapy[activeMap].getSizeX();
+        int sizeY = mapy[activeMap].getSizeY();
 
         for (int iUp = 0; iUp < sizeX + 2; iUp++) {
             System.out.print("-");
@@ -39,6 +41,14 @@ public class World {
         System.out.println("");
         for (int iDown = 0; iDown < sizeX + 2; iDown++) {
             System.out.print("-");
+        }
+
+    }
+
+    public void createMaps() {
+
+        for (int i = 0; i < numberOfMaps; i++) {
+            mapy[i] = new Map();
         }
 
     }

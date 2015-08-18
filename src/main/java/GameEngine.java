@@ -11,7 +11,7 @@ public class GameEngine {
         System.out.println("What would you like to do?");
         System.out.println("---> \'play\'");
         System.out.println("---> \'exit\'");
-        System.out.println("Your input: ");
+        System.out.print("Your input: ");
         String input = "";
 
         while (!input.equals("exit")) {
@@ -25,6 +25,7 @@ public class GameEngine {
 
     public void visualiseWorld() {
 
+        world.createMaps();
         world.displayActiveMap();
 
     }
