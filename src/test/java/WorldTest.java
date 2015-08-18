@@ -5,15 +5,6 @@ import static org.junit.Assert.assertEquals;
 public class WorldTest {
 
     @Test
-    public void shouldDisplayMap() {
-
-        World world = new World();
-        world.createMaps();
-        world.displayActiveMap();
-
-    }
-
-    @Test
     public void shouldRandomlyPlacePlayerOnMap() {
 
         World world = new World();

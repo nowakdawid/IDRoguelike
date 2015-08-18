@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class Map {
-    private int sizeX = 15;
-    private int sizeY = 5;
+    private int sizeX = 35;
+    private int sizeY = 35;
     private String terrain;
     private ArrayList<Player> playersOnMap = new ArrayList<Player>();
 
