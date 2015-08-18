@@ -3,8 +3,9 @@ public class World {
 
     Map[] mapy = new Map[10];
 
-    public void placePlayerOnMap() {
-
+    public void placePlayerOnMap(Player player, int newX, int newY) {
+        player.setCurrentPositionX(newX);
+        player.setCurrentPositionY(newY);
     }
 
     public void displayActiveMap() {
