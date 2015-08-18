@@ -24,7 +24,7 @@ public class World {
         }
         for (int x = 0; x < sizeX; x++) {
 
-            System.out.println("\n");
+            System.out.println("");
             System.out.print("|");
             for (int y = 0; y < sizeY; y++) {
 
@@ -36,7 +36,7 @@ public class World {
             System.out.print("|");
 
         }
-        System.out.println("\n");
+        System.out.println("");
         for (int iDown = 0; iDown < sizeX + 2; iDown++) {
             System.out.print("-");
         }
