@@ -14,7 +14,7 @@ public class GameEngine {
         System.out.println("Your input: ");
         String input = "";
 
-        while(!input.equals("exit")) {
+        while (!input.equals("exit")) {
 
             input = read.nextLine();
 
