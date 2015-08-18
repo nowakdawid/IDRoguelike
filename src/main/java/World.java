@@ -6,7 +6,6 @@ public class World {
 
     Map[] mapy = new Map[numberOfMaps];
 
-
     public void placePlayerOnMap(Player player, int newX, int newY) {
         player.setCurrentPositionX(newX);
         player.setCurrentPositionY(newY);
