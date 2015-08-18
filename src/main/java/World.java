@@ -18,7 +18,7 @@ public class World {
         int sizeX = mapy[0].getSizeX();
         int sizeY = mapy[0].getSizeY();
 
-        for (int iUp = 0; iUp < sizeX + 2; iUp++) {
+        for (int iUp = 0; iUp < sizeY + 2; iUp++) {
             System.out.print("-");
         }
         for (int x = 0; x < sizeX; x++) {
@@ -36,7 +36,7 @@ public class World {
 
         }
         System.out.println("");
-        for (int iDown = 0; iDown < sizeX + 2; iDown++) {
+        for (int iDown = 0; iDown < sizeY + 2; iDown++) {
             System.out.print("-");
         }
 
