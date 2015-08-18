@@ -3,7 +3,6 @@ public class Player {
     private int currentPositionX = 17;
     private int currentPositionY = 17;
 
-
     public int getCurrentPositionX() {
         return currentPositionX;
     }
