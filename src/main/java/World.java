@@ -19,14 +19,14 @@ public class World {
         int sizeX = mapy[0].getSizeX();
         int sizeY = mapy[0].getSizeY();
 
-        for (int iUp = 0; iUp < sizeY + 2; iUp++) {
+        for (int iUp = 0; iUp < sizeX + 2; iUp++) {
             System.out.print("-");
         }
-        for (int x = 0; x < sizeX; x++) {
+        for (int y = 0; y < sizeY; y++) {
 
             System.out.println("");
             System.out.print("|");
-            for (int y = 0; y < sizeY; y++) {
+            for (int x = 0; x < sizeX; x++) {
 
                 if (x == playerX && y == playerY) {
                     System.out.print("@");
@@ -37,7 +37,7 @@ public class World {
 
         }
         System.out.println("");
-        for (int iDown = 0; iDown < sizeY + 2; iDown++) {
+        for (int iDown = 0; iDown < sizeX + 2; iDown++) {
             System.out.print("-");
         }
 
