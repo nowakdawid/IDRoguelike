@@ -11,11 +11,11 @@ public class GameEngine {
         System.out.println("What would you like to do?");
         System.out.println("---> \'play\'");
         System.out.println("---> \'exit\'");
-        System.out.print("Your input: ");
         String input = "";
 
         while (!input.equals("exit")) {
 
+            System.out.print("> ");
             input = read.nextLine();
 
         }
